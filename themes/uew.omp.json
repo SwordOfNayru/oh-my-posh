@@ -119,7 +119,7 @@
         "newline": true,
         "segments": [
           {
-            "foreground": "lightGreen",
+            "foreground": "#BFA8BF",
             "foreground_templates": [
               "{{ if gt .Code 0 }}red{{ end }}"
             ],
