@@ -113,6 +113,25 @@
           }
         ],
         "type": "prompt"
+      },
+      {
+        "alignment": "left",
+        "newline": true,
+        "segments": [
+          {
+            "foreground": "lightGreen",
+            "foreground_templates": [
+              "{{ if gt .Code 0 }}red{{ end }}"
+            ],
+            "properties": {
+              "always_enabled": true
+            },
+            "style": "powerline",
+            "template": "\u279c ",
+            "type": "exit"
+          }
+        ],
+        "type": "prompt"
       }
     ],
     "console_title_template": "{{ .Folder }}",
